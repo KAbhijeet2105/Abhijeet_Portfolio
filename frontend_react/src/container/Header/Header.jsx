@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { AppWrap } from '../../wrapper';
+import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./Header.scss";
 
@@ -33,8 +33,8 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Web Developer</p>
-          <p className="p-text">Freelancer</p>
+          <p className="p-text">Software Engineer</p>
+          <p className="p-text">Open Source Enthusiast</p>
         </div>
       </div>
     </motion.div>
@@ -69,4 +69,4 @@ const Header = () => (
 );
 
 //export default Header;
-export default AppWrap(Header, 'home');
+export default AppWrap(Header, "home");
